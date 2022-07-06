@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: '._idroid.otf';
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body { 
+    background-color: rgb(125, 236, 125);
+}
+
+body > header > nav > a {
+    max-width: 40px;
+    padding: 10px;
+    background-color: darkgreen;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.253);
+}
+
+body > main {
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+    max-width: 90%;
+}
+
+header {
+    background: linear-gradient(rgb(1, 48, 1), rgb(1, 82, 1), rgb(1, 107, 1));
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width: calc(100%);
+}
+
+header > h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-bottom: 10px;
+    font-weight: bolder;
+}
+
+header > p {
+    color: rgba(255, 255, 255, 0.822);
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+header > nav > a {
+    color: rgba(255, 255, 255, 0.822);
+    text-decoration: none;
+}
+
+header > nav > a:hover {
+    background-color: rgba(157, 235, 157, 0.349);
+}
+
+main > h1 {
+    color: green;
+    font-family: '._idroid.otf';
+    text-indent: 10px;
+}
+
+main > h2 {
+    color: green;
+    font-family: '._idroid.otf';
+    background-color: rgba(113, 247, 113, 0.603);
+    text-indent: 10px;
+}
+
+main > p {
+    color: black;
+    font-size: 1.1em;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+main > p > span {
+    color: green;
+}
+
+main > p > a {
+    text-decoration: none;
+}
+
+main > p > a:hover {
+    background-color: rgb(119, 235, 119);
+}
+
+iframe {
+    background-color: rgb(2, 68, 2);
+    width: 70%;
+    padding-top: 3%;
+    padding-right: 13%;
+    padding-bottom: 3%;
+    padding-left: 10%;
+}
+
+header#lista {
+    background-color: green;
+    margin: auto;
+    width: 90%;
+    border-radius: 5% 5% 0% 0%;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.349);
+
+
+
+    
+}
+
+p#assunto {
+    background-color: rgb(147, 248, 147);
+    margin: auto;
+    width: 90%;
+    border-radius: 0% 0% 5% 5%;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.349);
+}
+
+a#foco {
+    text-decoration: none;
+    color: green;
+}
+
+p#fim {
+    max-width: 95%;
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(0, 54, 0);
+    text-align: center;
+    font-size: 0.9em;
+}
